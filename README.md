@@ -1,2 +1,3 @@
 # Youtube-Clone
-A clone of youtube website
+This project consists of building an HTML document that matches the appearance of youtube.
+

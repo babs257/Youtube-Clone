@@ -95,14 +95,14 @@ h5{
     margin-top: -3px;
 }
  
-#sub-button{
+#sub-button {
     background-color: red;
     color: white;
     border: 1px solid white;
     height: 22px;
   }
 
-#stats{
+#stats {
     display: inline-block;
     border: 1px solid lightgray;
     position: relative;
@@ -110,13 +110,28 @@ h5{
     height: 20px;
    }    
 
-#views{
+#views {
     justify-content: flex-end;
     margin-left: 235px;
     font-size: 18px;
     color: gray;
     position: relative;
     bottom: -20px;
+}
+
+#video-actions {
+    display: flex;
+    color: gray;
+}
+
+#v-actions-1 {
+ 
+    
+}
+
+#v-actions-2 {
+   position: relative;
+   right: -190px;
 }
 
 #autoplay {

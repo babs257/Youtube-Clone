@@ -3,11 +3,13 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     justify-content: center;
     background-color: #EEEEEE;
 }
+
+/* Header */
 
 nav {
     display: flex;
@@ -15,9 +17,8 @@ nav {
     align-items: center;
     width: 1008px;
     background-color: white;
-    margin-left: 120px;
     padding: 6px;
-    margin-bottom: -6px; 
+    margin: 0 auto -6px;
 }
 
 #nav-leftpart {
@@ -75,15 +76,18 @@ align-items: center;
     margin-left: 30px;
 }
 
-#container{
+/* Main  */
+
+#container {
    display: flex;
+   width: 1008px;
    position: relative;
-   left: 170px;
+   left: 50px;
    top: 20px;
-   margin: auto;
+   margin: 0 auto;
 }
 
-#youtube-main{
+#youtube-main {
     margin-left: -50px;
 }
 
@@ -105,16 +109,16 @@ align-items: center;
     background-color: white;
 }
 
-h5{
+h5 {
     margin-top: 0;
 }
 
-#avatar-details{
+#avatar-details {
     display: flex;
     flex-direction: column;
 }
 
-#subscribe{
+#subscribe {
     display: flex;
     align-items: center;
     position: relative;
@@ -156,12 +160,11 @@ h5{
    right: -190px;
 }
 
-#video-description{
+#video-description {
     display: flex;
     flex-direction: column;
     width: 560px;
     height: 180px;
-    border-color: white;
     background-color: white;
     position: relative;
     top: 10px;
@@ -191,6 +194,9 @@ h5{
     background-color: white;
     padding: 50px;
 }
+
+/* Sidebar  */
+
 aside {
     background-color: white;
     margin-left: 10px;
@@ -243,10 +249,11 @@ margin: 0 18px;
     color: gray;
 
 }
+/* Footer */
 
 footer {
     width: 1008px;
-    margin-left: 120px;
+    margin: 0 auto;
     position: relative;
     top: 50px;
 }
@@ -255,7 +262,7 @@ footer {
     display: flex;
     align-items: center;
     padding: 10px;
-    margin-top: 20px 5px 5px 0;
+    margin: 20px 5px 0 0;
     background-color: white;
     border-bottom: 1px solid lightgray;
 }
@@ -270,6 +277,7 @@ footer {
 #footer-row2 {
     background-color: white;
     padding: 5px;
+    margin-right: 5px;
 }
 
 .footer-details1 {
@@ -281,6 +289,7 @@ footer {
 #footer-row3 {
     background-color: white;
     padding: 5px;
+    margin-right: 5px;
     position: relative;
     top: -10px;
 }
